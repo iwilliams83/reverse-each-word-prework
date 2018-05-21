@@ -6,7 +6,7 @@ def reverse_each_word(astring)
     x.reverse!
   end
   temp = h[-1]
-  puts temp
+  puts "temp = #{temp}"
   #h.pop
   h.each {|y| s << "#{y} "}
   return s += temp
